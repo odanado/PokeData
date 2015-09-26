@@ -7,6 +7,7 @@
 
 #include "BaseStats.hpp"
 #include "Pokemon.hpp"
+#include "Nature.hpp"
 
 namespace PokeData {
     std::array<Pokemon, 663> createPokemons();

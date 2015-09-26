@@ -7,5 +7,10 @@ int main() {
         assert(PokeData::pokemons[idx].getName() == e.first);
     }
 
+    for(auto &e: PokeData::natureIndexes) {
+        int idx=e.second;
+        assert(PokeData::natures[idx].getName() == e.first);
+    }
+
     return 0;
 }

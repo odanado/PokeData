@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -O3 --std=c++11 -Wall -Wextra -Weffc++
-OBJS = BaseStats.o Pokemon.o PokeData.o test.o
-TARGET = test.ext
+OBJS = BaseStats.o Pokemon.o PokeData.o test.o Nature.o
+TARGET = test.exe
 INCLUDE = -I ../
 VPATH = ../
 
