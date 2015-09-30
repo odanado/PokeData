@@ -2,6 +2,8 @@
 #define INCLUDE_POKEMON_HPP
 
 #include <string>
+#include <map>
+#include <array>
 #include "BaseStats.hpp"
 
 namespace PokeData {
@@ -14,6 +16,9 @@ public:
     std::string getName() const;
     BaseStats getBaseStats() const;
 };
+
+extern const std::array<Pokemon,663> pokemons;
+extern const std::map<std::string,int> pokemonIndexes;
 
 }
 
