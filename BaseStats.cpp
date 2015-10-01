@@ -13,7 +13,7 @@ int BaseStats::getAttack() const {
     return attack;
 }
 
-int BaseStats::getDefence() const {
+int BaseStats::getDefense() const {
     return defense;
 }
 
